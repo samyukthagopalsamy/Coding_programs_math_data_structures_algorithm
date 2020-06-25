@@ -1,9 +1,8 @@
-/*this solution find the uniqueness of digits and then finds if abcd * e == dcba
+/*this updated solution checks the uniqueness of digits (a,b,c,d,e) and then finds if abcd * e == dcba
 Problem:
 Find all 4 digit numbers 'abcd' with distinct digits such that abcd * e == dcba (reversed)
  1<=e<10 and e should be a distinct digit from abcd
-
- i.e a,b,c,d,e are distinct digits
+ a,b,c,d,e are distinct digits
 */
 
 #include<iostream>
