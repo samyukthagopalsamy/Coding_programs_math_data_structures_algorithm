@@ -2,18 +2,19 @@
 #include<stdlib.h>
 #include<windows.h>
 #include<time.h>
-#define LT 218
-#define RT 191
-#define LB 192
-#define RB 217
-#define HL 196
-#define VL 179
-#define PLUS 197
-#define TT 194
-#define BT 193
-#define LST 195
-#define RST 180
-#define DIM 8
+//Following are ASCII values of Box drawing characters
+#define LT 218 // ┌
+#define RT 191 // ┐
+#define LB 192 // └
+#define RB 217 // ┘
+#define HL 196 // ─
+#define VL 179 // │
+#define PLUS 197 // ┼
+#define TT 194 // ┬
+#define BT 193 //  ┴
+#define LST 195 // ├
+#define RST 180 //  ┤
+#define DIM 8  // 8 x 8
 #define WIDTH 7
 #define HEIGHT 1
 #define SAFE 1
